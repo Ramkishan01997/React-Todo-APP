@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  /* background: linear-gradient(to right bottom, #e1b382,#c89666); */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#3f7985 ;
+}
+.app-wrapper{
+  /* background-color:#12343b ; */
+  background: #e1b382;
+  min-width: 450px;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px rgb(48, 34, 34);
+  margin-bottom: 10px;
+}
+.task-input{
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  /* color: #ccc; */
+  background-color:#0000 ;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.header h1{
+  color:#fff;
+text-align: center;
+margin: 30px 0;
+
+}
+
+.button-add{
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  /* background-color:#f1af71 ; */
+  background: rgb(80, 185, 80);
+  cursor: pointer;
+}
+.list-item{
+  display: flex;
+  margin: 20px 0;
+  border: 1 px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+  background: rgb(233, 220, 220);
+  box-shadow: 2px 3px 3px 2px grey;
+  /* background: rgb(146, 170, 38); */
+}
+.list-item:hover{
+  transform: scale(1.02);
+}
+  /* flex-direction: row;
+  padding-top: 5px;
+  
+} */
+.button-complete,
+.button-delete,
+.button-edit{
+  border: none;
+  outline: none;
+cursor: pointer;
+background-color: transparent;
+font-size: 20px;
+border-radius: 5px;}
+.button-complete{
+  color: green;
+  margin-left: 10px;
+
+
+}
+.button-edit{
+  color: #e2d029;
+  margin-right: 10px;
+  
+}
+.button-delete{
+  color: rgb(204, 32, 32);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.empty{
+  color:red;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.list{
+  width: 220px;
+  background: rgb(233, 220, 220);
+  /* background: #12343b; */
+ /* background: rgb(146, 170, 38); */
+  border: none;
+  /* color: #ccc; */
+  color: black;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+ .complete{
+  text-decoration-style:solid ;
+  text-decoration-line:line-through;
+  text-decoration-color:green ;
+  opacity: 0.6;
+  
+
+  
+  }
+ 
+input:focus,
+button:focus{
+  outline: none;
+}
+/* .list,
+.list-item:hover{
+  transform: scale(1.02);
+} */
